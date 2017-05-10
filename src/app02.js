@@ -47,5 +47,5 @@ var Link = React.createClass({
 
 ReactDOM.render(
     <WebSite name="菜鸟教程" site=" http://www.runoob.com"/>,
-    document.getElementById('example')
+    document.getElementById('example2')
 );

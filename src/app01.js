@@ -5,7 +5,7 @@
 
 
 var myStyle = {
-    fontSize: 100,
+    fontSize: 28,
     color: '#2396ff'
 };
 ReactDOM.render(

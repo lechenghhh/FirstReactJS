@@ -9,3 +9,21 @@
  获取DOM节点：findDOMNode
  判断组件挂载状态：isMounted
  */
+var MyCtrlBtn = React.createClass({
+    getInitialState: ()=> {
+        return {clickCount: 1};
+    },
+
+    render: function () {
+        return (<button onClick={() => {
+            this.setState({
+                clickCount: this.state.clickCount + 1
+            })
+        }}>数字是：{this.state.clickCount}</button>);
+    }
+
+});
+ReactDOM.render(
+    <MyCtrlBtn />,
+    document.getElementById('example4')
+);
