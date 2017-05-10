@@ -19,7 +19,7 @@ var MyCtrlBtn = React.createClass({
             this.setState({
                 clickCount: this.state.clickCount + 1
             })
-        }}>数字是：{this.state.clickCount}</button>);
+        }}>点击按钮，数字：{this.state.clickCount}</button>);
     }
 
 });
